@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Serviço de Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Seu Serviço de Streaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#comentarios">Comentários</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <div class="categoria">
+            <h3>Filmes</h3>
+            <-->
+        </div>
+        <div class="categoria">
+            <h3>Desenhos</h3>
+            <!-- Listagem de Desenhos -->
+        </div>
+        <div class="categoria">
+            <h3>Animes</h3>
+            <!-- Listagem de Animes -->
+        </div>
+        <div class="categoria">
+            <h3>Doramas</h3>
+            <!-- Listagem de Doramas -->
+        </div>
+        <div class="categoria">
+            <h3>Séries</h3>
+            <!-- Listagem de Séries -->
+        </div>
+    </section>
+
+    <section id="precos">
+        <h2>Planos e Preços</h2>
+        <!-- Tabela de preços -->
+    </section>
+
+    <section id="comentarios">
+        <h2>Comentários dos Usuários</h2>
+        <!-- Espaço para comentários -->
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@seuservico.com</p>
+        <p>Telefone: (11) 9999-9999</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.categoria {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+<div class="item">
+    <img src="url_da_imagem_do_filme" alt="Título do Filme">
+    <h4>Título do Filme</h4>
+    <p>Descrição breve do filme...</p>
+</div>
+<table>
+    <tr>
+        <th>Plano</th>
+        <th>Preço</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <td>Básico</td>
+        <td>R$ 19,90/mês</td>
+        <td>Acesso limitado ao catálogo de filmes e séries</td>
+    </tr>
+    <tr>
+        <td>Premium</td>
+        <td>R$ 39,90/mês</td>
+        <td>Acesso completo ao catálogo, incluindo animes e doramas</td>
+    </tr>
+</table>
